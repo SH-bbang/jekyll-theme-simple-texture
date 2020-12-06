@@ -23,7 +23,7 @@ sass:
 # Site Data
 url: # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: # the subpath of your site, e.g. /blog
-title: Simple Texture
+title: BBANG's Tech blog 
 description: "A gem-based responsive simple texture styled Jekyll theme."
 keywords: 'Linux,AIX,System,Storage' #'jekyll,theme,gem-based,blog'
 author:
@@ -35,7 +35,7 @@ author:
     - name: facebook
       url:
     - name: github
-      url: https://github.com/SH-bbang/sh-bbang.github.io.git
+      url: https://github.com/SH-bbang
     - name: instagram
       url:
     - name: linkedin
