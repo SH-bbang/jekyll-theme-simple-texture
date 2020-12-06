@@ -47,8 +47,8 @@ author:
     - name: vk
       url:
 home:
-  section1: <h1>Simple Texture</h1>
-  section2: <h2>A gem-based responsive simple texture styled Jekyll theme</h2>
+  section1: <h1>BBANG's Test Page</h1>
+  section2: <h2>어떻게 바꾸는데 sibal</h2>
   section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/SH-bbang/sh-bbang.github.io.git" title="View on GitHub"></a></div>
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
