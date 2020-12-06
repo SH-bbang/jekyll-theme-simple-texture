@@ -25,12 +25,12 @@ url: # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: # the subpath of your site, e.g. /blog
 title: Simple Texture
 description: "A gem-based responsive simple texture styled Jekyll theme."
-keywords: 'jekyll,theme,gem-based,blog'
+keywords: 'Linux,AIX,System,Storage' #'jekyll,theme,gem-based,blog'
 author:
-  name:
+  name: Seonghwan Bang
   job_title:
-  location:
-  email:
+  location: REPUBLIC OF KOREA
+  email: cocoball1006@gmail.com
   social_links:
     - name: facebook
       url:
@@ -47,7 +47,7 @@ author:
     - name: vk
       url:
 home:
-  section1: <h1>BBANG's Test Page</h1>
+  section1: <h1>BBANG's Tech Blog</h1>
   section2: <h2>Linux / AIX / System / Storage</h2>
   section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/SH-bbang/sh-bbang.github.io.git" title="View on GitHub"></a></div>
 blog:
@@ -56,8 +56,8 @@ blog:
   footer_content: A gem-based responsive simple texture styled <a href="http://jekyllrb.com/">Jekyll</a> theme.
 
 disqus:
-  shortname: # e.g. Bbang
-  public_key: # e.g. ULZ0b9TFefCUJHKQd4JCKv2v3u27YoG7YG8zXPewkWrT333Z0Se9YnxLzoV6VM8W
+  shortname: BBang # e.g. Bbang
+  public_key: none # e.g. ULZ0b9TFefCUJHKQd4JCKv2v3u27YoG7YG8zXPewkWrT333Z0Se9YnxLzoV6VM8W
 google_tag_manager: # e.g. 'GTM-KCQJXZ8F'
 addthis_public_id: # AddThis sharing plugin. See http://www.addthis.com/. E.g. ra-53329e27694534j5 
 
