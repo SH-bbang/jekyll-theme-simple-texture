@@ -24,7 +24,7 @@ ssh 사용시 가장 기본이 되는 보안설정으로 어떻게 하는지 한
 말 그대로 root 직접 접근을 막게 될 경우 접속 및 실제 사용자가 사용할 user를 생성해 줍니다.
 여기서는 bbang01 로 생성하겠습니다.
 
-~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~ ruby
 # useradd -m bbang01
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -42,7 +42,7 @@ useradd 명령어를 사용할때는 아래 처럼 간단하게 옵션을 선택
 
 그 뒤에는 생성한 user인 *`bbang01`*의 패스워드를 지정해 줍니다.
 
-~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~ ruby
 # passwd bbang01
 Changing password for user bbang01.
 New password: 
@@ -52,7 +52,7 @@ passwd: all authentication tokens updated successfully.
 
 생성된 user는 `/etc/passwd` 안에 저장됩니다.
 
-~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~ ruby
 # tail -n 4 /etc/passwd 
 tcpdump:x:72:72::/:/sbin/nologin
 git_shbang:x:1000:1000:git_shbang:/home/git_shbang:/bin/bash
@@ -89,8 +89,8 @@ or
 
 재시작 한 뒤 접속이 불가능 한 것을 확인합니다.
 
-<img src="/assets/images/secure/PermitRootLogin_no.PNG">
-<img src="/assets/images/secure/user_login.PNG">
+<img src="/assets/images/secure/PermitRootLogin_no.JPG">
+<img src="/assets/images/secure/user_login.JPG">
 
 
 
