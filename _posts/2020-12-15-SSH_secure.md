@@ -89,8 +89,32 @@ or
 
 재시작 한 뒤 접속이 불가능 한 것을 확인합니다.
 
-<img src="/assets/images/secure/PermitRootLogin_no.JPG">
-<img src="/assets/images/secure/user_login.JPG">
+~~~ ruby
+login as: root
+root@192.168.197.128's password:
+Access denied
+root@192.168.197.128's password:
+Access denied
+root@192.168.197.128's password:
+~~~
+
+~~~ ruby
+login as: bbang01
+bbang01@192.168.197.128's password:
+Last login: Sun Dec 13 00:11:33 2020 from 192.168.197.1
+[bbang01@bbang ~]$
+~~~
+
+
+
+# ◎ Key 인증을 통한 로그인
+
+
+
+
+
+
+
 
 
 
