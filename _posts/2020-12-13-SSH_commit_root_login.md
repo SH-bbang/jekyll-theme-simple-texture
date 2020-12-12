@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Linux - SSH 관련 보안설정"
-description: "Linux - SSH 관련 보안설정"
+title: "Linux - SSH 관련 보안설정- 1"
+description: "Linux - SSH 관련 보안설정 - 1"
 categories: [linux]
 tags: [jekyll, linux, ssh, 보안설정, ssh-key]
 redirect_from:
-  - /2020/12/15/
+  - /2020/12/13/
 ---
 
 > This is code blocks and highlighting test page for [Simple Texture][Simple Texture] theme.
@@ -105,77 +105,6 @@ Last login: Sun Dec 13 00:11:33 2020 from 192.168.197.1
 [bbang01@bbang ~]$
 ~~~
 
-
-
-# ◎ Key 인증을 통한 로그인
-
-
-
-
-
-
-
-
-
-
-This is a test for inline codeblocks like `C:/Ruby23-x64` or `SELECT  "offices".* FROM "offices" `
-
-Here is a literal `` ` `` backtick.
-And here is a Ruby code fragment `x = Class.new`{:.language-ruby}
-
-# Fenced Code Blocks
-
-~~~~~~~~~~~~
-~~~~~~~
-code with tildes
-~~~~~~~~
-~~~~~~~~~~~~~~~~~~
-
-# Simple codeblock with long lines
-
-    function myFunction() {
-        alert("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.");
-    }
-
-# Language of Code Blocks
-
-~~~ ruby
-def what?
-  42
-end
-~~~
-
-# Highlighted
-
-## External Gist
-
-<script src="https://gist.github.com/yizeng/9b871ad619e6dcdcc0545cac3101f361.js"></script>
-
-## Simple Highlight
-
-{% highlight ruby %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
-
-## Highlight with long lines
-
-{% highlight c# %}
-public class Hello {
-    public static void Main() {
-        Console.WriteLine("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.");
-    }
-}
-{% endhighlight %}
-
-## Highlight with line numbers and long lines
-
-{% highlight javascript linenos=table %}
-function myFunction() {
-    alert("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.");
-}
-{% endhighlight %}
 
 [^1]: This is a footnote.
 
