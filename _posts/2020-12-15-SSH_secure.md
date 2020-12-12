@@ -3,12 +3,12 @@ layout: post
 title: "Linux - SSH 관련 보안설정"
 description: "Linux - SSH 관련 보안설정"
 categories: [linux]
-tags: [linux, ssh, 보안설정, ssh-key]
+tags: [jekyll, linux, ssh, 보안설정, ssh-key]
 redirect_from:
   - /2020/12/15/
 ---
 
-#> This is code blocks and highlighting test page for [Simple Texture][Simple Texture] theme.
+> This is code blocks and highlighting test page for [Simple Texture][Simple Texture] theme.
 
 * Kramdown table of contents
 {:toc .toc}
