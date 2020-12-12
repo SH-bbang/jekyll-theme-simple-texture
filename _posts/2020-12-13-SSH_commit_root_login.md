@@ -106,6 +106,34 @@ Last login: Sun Dec 13 00:11:33 2020 from 192.168.197.1
 [bbang01@bbang ~]$
 ~~~
 
+# ◎SSH Port 변경
+
+ssh의 포트로 알려진 22번은 모든 사람들이 기본으로 알고있는 *default port* 이기 때문에 변경할 필요가 있습니다.
+
+
+## config 설정 변경
+
+sshd_config 에서 `Port`부분을 변경해줍니다.
+
+~~~~~~~~~~~~~~~~~~~~~~ ruby
+# vi /etc/ssh/sshd_config
+
+#Port 22 //17번 라인 쯤
+Port 10001 // 라인 추가 또는 22를 원하는 포트로 변경
+~~~~~~~~~~~~~~~~~~~~~~
+
+ssh_config 에서도 'Port'부분을 변경해줍니다.
+
+sshd 재시작은 필수!
+
+~~~ ruby
+# systemctl restart sshd
+
+or
+
+# systemctl stop sshd; systemctl start sshd
+~~~
+
 
 [^1]: This is a footnote.
 
