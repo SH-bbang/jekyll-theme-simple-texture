@@ -3,7 +3,7 @@ layout: post
 title: "Linux - SSH 관련 보안설정- 1"
 description: "Linux - SSH 관련 보안설정 - 1"
 categories: [linux]
-tags: [jekyll, linux, ssh, 보안설정, ssh-key]
+tags: [jekyll, linux, ssh, 보안설정, PermitRootLogin]
 redirect_from:
   - /2020/12/13/
 ---
@@ -22,13 +22,14 @@ ssh 사용시 가장 기본이 되는 보안설정으로 어떻게 하는지 한
 ## user 생성
 
 말 그대로 root 직접 접근을 막게 될 경우 접속 및 실제 사용자가 사용할 user를 생성해 줍니다.
-여기서는 bbang01 로 생성하겠습니다.
+여기서는 `bbang01` 로 생성하겠습니다.
+
 
 ~~~~~~~~~~~~~~~~~~~~~~ ruby
 # useradd -m bbang01
 ~~~~~~~~~~~~~~~~~~~~~~
 
-useradd 명령어를 사용할때는 아래 처럼 간단하게 옵션을 선택해서 적용할수있습니다.
+`useradd` 명령어를 사용할때는 아래 처럼 간단하게 옵션을 선택해서 적용할수있습니다.
 
 > -m : user생성시 home 디렉터리도 함께 생성 ( ex: /home/bbang01 )
 >
@@ -62,7 +63,7 @@ bbang01:x:1002:1002::/home/bbang01:/bin/bash
 
 > 사용자이름:암호:사용자ID:그룹ID:추가정보:홈디렉토리:쉘
 >
-> ( 참고 그룹파일은 /etc/group, 비밀번호파일은 /etc/shadow )
+> ( 참고 - 그룹파일은 /etc/group, 비밀번호파일은 /etc/shadow )
 
 
 
