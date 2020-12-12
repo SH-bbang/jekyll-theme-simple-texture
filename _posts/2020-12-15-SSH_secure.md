@@ -80,17 +80,17 @@ PermitRootLogin no // 보통 주석 처리 및 yes로 되어있음
 PermitRootLogin 설정이 yes에서 no로 바뀔 경우 문제가 생겨서 root로만 접속해야할 경우 Console을 통해서만 가능하니 주의해야 합니다.
 
 ~~~ ruby
-systemctl restart sshd
+# systemctl restart sshd
 
 or
 
-systemctl stop sshd; systemctl start sshd
+# systemctl stop sshd; systemctl start sshd
 ~~~
 
 재시작 한 뒤 접속이 불가능 한 것을 확인합니다.
 
-<img src="/assets/images/secure/PermitRootLogin_no.PNG"
-<img src="/assets/images/secure/user_login.PNG"
+<img src="/assets/images/secure/PermitRootLogin_no.PNG">
+<img src="/assets/images/secure/user_login.PNG">
 
 
 
