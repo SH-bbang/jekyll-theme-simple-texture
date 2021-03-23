@@ -5,7 +5,7 @@ description: "Linux - SSH 관련 보안설정 - 1"
 categories: [linux]
 tags: [jekyll, linux, ssh, 보안설정, PermitRootLogin]
 redirect_from:
-  - /2020/12/13/
+  - /2021/02/02/
 ---
 
 > This is code blocks and highlighting test page for [Simple Texture][Simple Texture] theme.
